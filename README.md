@@ -38,15 +38,14 @@ Sample document:
  'id': '21cd2dec-e935-4ce4-aba0-6851941b229d',
  'labels': ['confused', 'frustrated', 'disappointed'],
  'scores': {
-   'frustrated': 0.2119415576,
-   'disappointed': 0.2119415576,
-   'angry': 0,
-   'worried': 0,
-   'confused': 0.5761168848,
-   'stressed': 0,
-   'neutral': 0,
-   'positive': 0,
-   'other_negative_emotion': 0
+    'angry': 0.05,
+    'disappointed': 0.25,
+    'frustrated': 0.25,
+    'stressed': 0.1,
+    'worried': 0.0,
+    'neutral': 0.05,
+    'positive': 0.0,
+    'confused': 0.3
  },
  'annotations': [
   {'annotator_id': 'A63', 'tags': ['stressed', 'angry']},
